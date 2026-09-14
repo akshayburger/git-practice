@@ -8,7 +8,9 @@ while True:
     print("4. Division")
     print("5. Exit")
     choice = int(input("Enter your choice: "))
-    if choice == 1:
+    
+    try:
+        if choice == 1:
         a = int(input("Enter the first number: "))
         b = int(input("Enter the second number: "))
         sum = a + b
@@ -35,6 +37,9 @@ while True:
         break
     else:
         print("Invalid choice")
+        continue
+    except ValueError:
+        print("Invalid input")
         continue
     print("--------------------------------")
     print("Thank you for using the calculator")
