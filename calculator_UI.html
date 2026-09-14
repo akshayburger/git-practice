@@ -5,15 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
 </head>
-<body>
+<br>
     <h1>Calculator</h1>
-    <form action="calculator.py" method="post">
+    <br></br>
+    <form action="/calculate" method="post">
         <input type="text" name="a" placeholder="Enter the first number">
         <input type="text" name="b" placeholder="Enter the second number">
-        <input type="submit" value="+">
-        <input type="submit" value="-">
-        <input type="submit" value="x">
-        <input type="submit" value="/">
+        <br></br>
+        <button type="submit" name="operation" value="add">+</button>
+        <button type="submit" name="operation" value="subtract">-</button>
+        <button type="submit" name="operation" value="multiply">×</button>
+        <button type="submit" name="operation" value="divide">÷</button>
+        <br></br>
     </form>
     <h1>Result: </h1>
     <p id="result"></p>
