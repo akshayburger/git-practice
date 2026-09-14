@@ -1,6 +1,6 @@
 Calculator
 ----------
-Addition
+Addition - basic arithmatic
 Subtraction
 Multiplication
 Division
