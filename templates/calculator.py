@@ -11,8 +11,8 @@ def home():
 @app.route("/calculate", methods=["POST"])
 def calculate():
 
-    a = int(request.form["a"])
-    b = int(request.form["b"])
+    a = request.form["a"]
+    b = request.form["b"]   
     operation = request.form["operation"]
 
     if operation == "add":
