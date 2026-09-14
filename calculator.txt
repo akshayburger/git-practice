@@ -1,6 +1,6 @@
 Calculator
 ----------
-Addition - now supports integers
+Addition - now supports integers and basic arithmatic
 Subtraction
 Multiplication
 Division
