@@ -3,4 +3,3 @@ Calculator
 Addition
 Subtraction
 Multiplication
-HORRIBLE FUNCTION
