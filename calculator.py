@@ -5,8 +5,8 @@ app = Flask(__name__)
 @app.route("/calculate", methods=["POST"])
 def calculate():
 
-    a = request.form["a"]
-    b = request.form["b"]   
+    a = int(request.form["a"])
+    b = int(request.form["b"])   
     operation = request.form["operation"]
 
     if operation == "add":
